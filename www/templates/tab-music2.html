@@ -15,16 +15,14 @@
         <div class="card">
             
             <div class="item item-divider">
-            <button class="button button-primary" onclick="playmusic()">Listen Live</button>
-            <button class="button button-primary" onclick="pausemusic()">Pause</button>
+            <button class="button button-small button-assertive icon-left" onclick="PlayMusic()">Listen Live</button>
+            <button class="button button-small button-assertive icon-left" onclick="pausemusic()">Pause</button>
       <script type="text/javascript">
-      var audio = new Audio('http://kantipur-stream.softnep.com:7248/;stream.nsv&type=mp3');
-          function playmusic(){
+        var audio = new Audio('http://kantipur-stream.softnep.com:7248/;stream.nsv&type=mp3');
+          function PlayMusic(){
           audio.play();
             }
-
             function pausemusic(){
-              
               audio.pause();
             }
     </script>    
