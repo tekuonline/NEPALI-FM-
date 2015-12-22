@@ -1,7 +1,7 @@
 {
-  "name": "fm",
-  "version": "1.0.0",
-  "description": "FM: An Ionic project",
+  "name": "nepalradiov1",
+  "version": "1.1.1",
+  "description": "NepalRadioV1: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -22,12 +22,12 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard",
     {
-      "locator": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin",
+      "locator": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git",
       "id": "com.hutchind.cordova.plugins.streamingmedia"
     }
   ],
   "cordovaPlatforms": [
-    "android",
-    "ios"
+    "ios",
+    "android"
   ]
 }
